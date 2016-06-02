@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A5B0941D006AF000F83A45 /* uiviewPlusDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A5B0931D006AF000F83A45 /* uiviewPlusDesignable.swift */; };
 		10F4887E1CFB3A0E00C71747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4887D1CFB3A0E00C71747 /* AppDelegate.swift */; };
 		10F488801CFB3A0E00C71747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4887F1CFB3A0E00C71747 /* ViewController.swift */; };
 		10F488831CFB3A0E00C71747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F488811CFB3A0E00C71747 /* Main.storyboard */; };
 		10F488861CFB3A0E00C71747 /* createDesignableUserInterfaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10F488841CFB3A0E00C71747 /* createDesignableUserInterfaces.xcdatamodeld */; };
 		10F488881CFB3A0E00C71747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F488871CFB3A0E00C71747 /* Assets.xcassets */; };
 		10F4888B1CFB3A0E00C71747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F488891CFB3A0E00C71747 /* LaunchScreen.storyboard */; };
+		10F488931CFB3B0D00C71747 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F488921CFB3B0D00C71747 /* customView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A5B0931D006AF000F83A45 /* uiviewPlusDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiviewPlusDesignable.swift; sourceTree = "<group>"; };
 		10F4887A1CFB3A0E00C71747 /* createDesignableUserInterfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = createDesignableUserInterfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F4887D1CFB3A0E00C71747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10F4887F1CFB3A0E00C71747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		10F488871CFB3A0E00C71747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F4888A1CFB3A0E00C71747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F4888C1CFB3A0E00C71747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F488921CFB3B0D00C71747 /* customView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customView.swift; path = ../customView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		10F4887C1CFB3A0E00C71747 /* createDesignableUserInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				10F488921CFB3B0D00C71747 /* customView.swift */,
 				10F4887D1CFB3A0E00C71747 /* AppDelegate.swift */,
 				10F4887F1CFB3A0E00C71747 /* ViewController.swift */,
 				10F488811CFB3A0E00C71747 /* Main.storyboard */,
+				10A5B0931D006AF000F83A45 /* uiviewPlusDesignable.swift */,
 				10F488871CFB3A0E00C71747 /* Assets.xcassets */,
 				10F488891CFB3A0E00C71747 /* LaunchScreen.storyboard */,
 				10F4888C1CFB3A0E00C71747 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F488801CFB3A0E00C71747 /* ViewController.swift in Sources */,
+				10A5B0941D006AF000F83A45 /* uiviewPlusDesignable.swift in Sources */,
+				10F488931CFB3B0D00C71747 /* customView.swift in Sources */,
 				10F4887E1CFB3A0E00C71747 /* AppDelegate.swift in Sources */,
 				10F488861CFB3A0E00C71747 /* createDesignableUserInterfaces.xcdatamodeld in Sources */,
 			);
@@ -288,6 +296,7 @@
 				10F488911CFB3A0E00C71747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
